@@ -1,0 +1,11 @@
+.svgSectaion h1 {
+  line-height: 1.5;
+  margin: 0 auto -12px;
+  font-family: camphor w01 bold, helveticaneue-bold, Helvetica, arial bold,
+    Arial, sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  color: #549fba;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}

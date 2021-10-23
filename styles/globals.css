@@ -1,16 +1,103 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-family: "camphor w01 heavy,helveticaneue-bold,Helvetica,arial bold,Arial,sans-serif";
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
+a:hover {
+ color: black !important
+}
 * {
   box-sizing: border-box;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.tool-rank-sec {
+  background: #f9faf8;
+}
+
+.navLinkIcon {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center !important;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.navLinkIcon a {
+  display: unset;
+}
+
+.list-item-group .list-group-item {
+  color: blue !important;
+  border: none;
+  padding: 5px 1.25rem !important;
+}
+
+.local-h3 {
+  color: #a5c559;
+  text-transform: uppercase;
+}
+
+.local-manu {
+  font-size: 21px;
+}
+.green-btn {
+  position: relative;
+  display: inline-block;
+  margin: 4px 8px 8px;
+  padding: 8px 32px;
+  font-size: 15px;
+  border: none;
+  border-radius: 50px;
+  font-family: "camphor w01 bold, source sans pro, sans-serif";
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.31);
+  background-color: #a5c559;
+  background-image: linear-gradient(
+    -180deg,
+    #accf60 4%,
+    #a3c559 18%,
+    #93b24f 59%,
+    #83a044 100%
+  );
+  box-shadow: 0 1px 4px 0 rgba(123, 124, 122, 0.42),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.12);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
+  outline: 0;
+  text-decoration-line: none;
+}
+
+.green-btn:hover{
+  text-decoration-line: none;
+  color: white;
+  transition: "box-shadow .15s ease-in-out,transform .15s ease-in-out";
+}
+
+.who {
+  display: block;
+}
+
+.where {
+  display: block !important;
+  margin: 4px auto !important;
+  font-weight: 700 !important;
+}
+
+.list-item-group .list-group-item {
+  color: black !important;
+  padding: 5px 10px !important
 }
